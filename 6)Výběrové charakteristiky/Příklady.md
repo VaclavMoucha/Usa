@@ -87,3 +87,57 @@ Z = (4-Ex)/sigma
 normcdf(Z)
 ```
 ![[Pasted image 20260528194722.png]]
+```
+%Pr 11
+
+%hazime kostkou teda
+
+Ex = (1+6)/2
+
+Dx = (6-1)^2/12
+
+n = 100
+
+Ex_sum = Ex*n
+
+Dx_sum = Dx*100
+
+sigma = sqrt(Dx_sum)
+
+%jelikož jsou 2 hranice udělame Z1 a Z2
+
+Z1 = (319.5 - Ex_sum) / sigma
+
+Z2 = (380.5 - Ex_sum) / sigma
+
+normcdf(Z2)-normcdf(Z1)
+```
+![[Pasted image 20260528200054.png]]
+![[Pasted image 20260528200411.png]]
+Pro poisscdf
+
+```
+%pr 12;
+
+1-binocdf(104.5,600,1/6)
+
+lambda = 600*1/6;
+
+1-poisscdf(104.5,lambda);
+
+%ZDE je to jine počítame počet šestek takže jinný vzorec pro Ex a Dx
+
+n=600;
+
+Ex = n*1/6;
+
+Dx = n*1/6*(1-1/6)
+
+sigma = sqrt(Dx);
+
+Z = (104.5-Ex)/sigma;
+
+1-normcdf(Z)
+```
+Rozdíl výběrových průměrů
+![[Pasted image 20260528201057.png]]
