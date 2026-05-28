@@ -11,10 +11,14 @@
             "id": "4b63caeda7559319",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "6)Výběrové charakteristiky/teorie.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nová karta"
+              "title": "teorie"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "18ad68fd0225a22f",
@@ -176,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,27 +195,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "378cbfec990cceca",
+  "active": "4b63caeda7559319",
   "lastOpenFiles": [
-    "Bez názvu",
-    "4)Diskrétní rozdělení/Pasted image 20260528114133.png",
     "6)Výběrové charakteristiky/Příklady.md",
+    "Teorie Odhadu",
+    "6)Výběrové charakteristiky/Pasted image 20260528203947.png",
+    "6)Výběrové charakteristiky/Pasted image 20260528203838.png",
+    "6)Výběrové charakteristiky/Pasted image 20260528203644.png",
+    "6)Výběrové charakteristiky/teorie.md",
     "6)Výběrové charakteristiky/Pasted image 20260528181825.png",
-    "6)Výběrové charakteristiky/Pasted image 20260528180119.png",
-    "6)Výběrové charakteristiky/Pasted image 20260528180104.png",
-    "6)Výběrové charakteristiky/Pasted image 20260528175741.png",
     "6)Výběrové charakteristiky/Pasted image 20260528175535.png",
     "6)Výběrové charakteristiky/Pasted image 20260528172324.png",
+    "6)Výběrové charakteristiky/Pasted image 20260528203433.png",
+    "6)Výběrové charakteristiky/Pasted image 20260528203237.png",
+    "6)Výběrové charakteristiky/Pasted image 20260528203038.png",
+    "6)Výběrové charakteristiky/Pasted image 20260528202226.png",
     "4)Diskrétní rozdělení/přiklady.md",
     "3)Náhodná veličina a náhodný vektor/Příklady.md",
     "2)Úvod do teorie Pravděpodobnosti/Příklady.md",
     "2)Úvod do teorie Pravděpodobnosti/Př25.md",
-    "6)Výběrové charakteristiky/teorie.md",
     "5)Spojitá rozdělení pravděbodobnosti/Příklady.md",
     "6)Výběrové charakteristiky",
-    "5)Spojitá rozdělení pravděbodobnosti/Pasted image 20260528150727.png",
-    "5)Spojitá rozdělení pravděbodobnosti/Pasted image 20260528150450.png",
-    "5)Spojitá rozdělení pravděbodobnosti/Pasted image 20260528150326.png",
     "5)Spojitá rozdělení pravděbodobnosti/teorie.md",
     "5)Spojitá rozdělení pravděbodobnosti",
     "4)Diskrétní rozdělení/Teorie.md",
