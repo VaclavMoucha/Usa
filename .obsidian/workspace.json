@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "880923ca5a21adfb",
+        "id": "d7c9563ac25062d0",
         "type": "tabs",
         "children": [
           {
-            "id": "4b63caeda7559319",
+            "id": "ef68abfa428740a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Úvod do teorie Pravděpodobnosti/Příklady.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Zpětné odkazy pro Příklady"
+              "title": "Zpětné odkazy"
             }
           },
           {
@@ -156,13 +155,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Úvod do teorie Pravděpodobnosti/Příklady.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Přehled Příklady"
+              "title": "Přehled"
             }
           },
           {
@@ -219,19 +217,12 @@
     "5)Spojitá rozdělení pravděbodobnosti/teorie.md",
     "5)Spojitá rozdělení pravděbodobnosti",
     "4)Diskrétní rozdělení/Teorie.md",
-    "3)Náhodná veličina a náhodný vektor/Teorie.md",
     "4)Diskrétní rozdělení",
-    "2)Úvod do teorie Pravděpodobnosti/Uvod do teorie Pravděpodobnosti.md",
     "3)Náhodná veličina a náhodný vektor",
-    "2)Úvod do teorie Pravděpodobnosti/Bez názvu.canvas",
-    "2)Úvod do teorie Pravděpodobnosti/Př19.md",
     "Excalidraw/Drawing 2026-05-28 08.47.20.excalidraw.md",
     "Bez názvu.base",
     "5)Spojitá rozdělení pravděbodobnosti/Excalidraw",
-    "1)Kombinatorika/Kombinatorika.md",
     "2)Úvod do teorie Pravděpodobnosti",
-    "1)Kombinatorika",
-    "Vítejte.md",
-    "desktop.ini"
+    "Vítejte.md"
   ]
 }
