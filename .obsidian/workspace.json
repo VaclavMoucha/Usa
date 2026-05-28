@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "880923ca5a21adfb",
+        "id": "d7c9563ac25062d0",
         "type": "tabs",
         "children": [
           {
-            "id": "4b63caeda7559319",
+            "id": "ef68abfa428740a5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -90,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Úvod do teorie Pravděpodobnosti/Příklady.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Zpětné odkazy pro Příklady"
+              "title": "Zpětné odkazy"
             }
           },
           {
@@ -152,13 +151,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Úvod do teorie Pravděpodobnosti/Příklady.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Přehled Příklady"
+              "title": "Přehled"
             }
           },
           {
@@ -176,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 378.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,43 +189,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "378cbfec990cceca",
+  "active": "ef68abfa428740a5",
   "lastOpenFiles": [
-    "Bez názvu",
-    "4)Diskrétní rozdělení/Pasted image 20260528114133.png",
-    "6)Výběrové charakteristiky/Příklady.md",
-    "6)Výběrové charakteristiky/Pasted image 20260528181825.png",
-    "6)Výběrové charakteristiky/Pasted image 20260528180119.png",
-    "6)Výběrové charakteristiky/Pasted image 20260528180104.png",
-    "6)Výběrové charakteristiky/Pasted image 20260528175741.png",
-    "6)Výběrové charakteristiky/Pasted image 20260528175535.png",
-    "6)Výběrové charakteristiky/Pasted image 20260528172324.png",
-    "4)Diskrétní rozdělení/přiklady.md",
-    "3)Náhodná veličina a náhodný vektor/Příklady.md",
     "2)Úvod do teorie Pravděpodobnosti/Příklady.md",
     "2)Úvod do teorie Pravděpodobnosti/Př25.md",
+    "2)Úvod do teorie Pravděpodobnosti/Př19.md",
+    "2)Úvod do teorie Pravděpodobnosti/Uvod do teorie Pravděpodobnosti.md",
+    "1)Kombinatorika/Kombinatorika.md",
+    "2)Úvod do teorie Pravděpodobnosti/Images",
+    "1)Kombinatorika/Images/Pasted image 20260527201344.png",
+    "1)Kombinatorika/Images/Pasted image 20260527201340.png",
+    "1)Kombinatorika/Images",
+    "Bez názvu",
+    "3)Náhodná veličina a náhodný vektor/Teorie.md",
+    "3)Náhodná veličina a náhodný vektor/Příklady.md",
+    "2)Úvod do teorie Pravděpodobnosti/Bez názvu.canvas",
+    "2)Úvod do teorie Pravděpodobnosti/Images/Pasted image 20260528082345.png",
+    "2)Úvod do teorie Pravděpodobnosti/Images/Pasted image 20260528082338.png",
+    "2)Úvod do teorie Pravděpodobnosti/Images/Pasted image 20260527214114.png",
+    "1)Kombinatorika/Images/Pasted image 20260527202646.png",
+    "1)Kombinatorika/Images/Pasted image 20260527202400.png",
+    "1)Kombinatorika/Images/Pasted image 20260527201912.png",
+    "1)Kombinatorika/Images/Pasted image 20260527201747.png",
+    "4)Diskrétní rozdělení/Pasted image 20260528114133.png",
+    "6)Výběrové charakteristiky/Příklady.md",
+    "4)Diskrétní rozdělení/přiklady.md",
     "6)Výběrové charakteristiky/teorie.md",
     "5)Spojitá rozdělení pravděbodobnosti/Příklady.md",
     "6)Výběrové charakteristiky",
-    "5)Spojitá rozdělení pravděbodobnosti/Pasted image 20260528150727.png",
-    "5)Spojitá rozdělení pravděbodobnosti/Pasted image 20260528150450.png",
-    "5)Spojitá rozdělení pravděbodobnosti/Pasted image 20260528150326.png",
     "5)Spojitá rozdělení pravděbodobnosti/teorie.md",
     "5)Spojitá rozdělení pravděbodobnosti",
     "4)Diskrétní rozdělení/Teorie.md",
-    "3)Náhodná veličina a náhodný vektor/Teorie.md",
     "4)Diskrétní rozdělení",
-    "2)Úvod do teorie Pravděpodobnosti/Uvod do teorie Pravděpodobnosti.md",
     "3)Náhodná veličina a náhodný vektor",
-    "2)Úvod do teorie Pravděpodobnosti/Bez názvu.canvas",
-    "2)Úvod do teorie Pravděpodobnosti/Př19.md",
     "Excalidraw/Drawing 2026-05-28 08.47.20.excalidraw.md",
     "Bez názvu.base",
     "5)Spojitá rozdělení pravděbodobnosti/Excalidraw",
-    "1)Kombinatorika/Kombinatorika.md",
     "2)Úvod do teorie Pravděpodobnosti",
-    "1)Kombinatorika",
-    "Vítejte.md",
-    "desktop.ini"
+    "Vítejte.md"
   ]
 }
