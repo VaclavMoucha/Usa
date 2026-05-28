@@ -11,10 +11,14 @@
             "id": "ef68abfa428740a5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "6)Výběrové charakteristiky/teorie.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nová karta"
+              "title": "teorie"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "18ad68fd0225a22f",
@@ -174,7 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,32 +193,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ef68abfa428740a5",
+  "active": "4b63caeda7559319",
   "lastOpenFiles": [
+    "6)Výběrové charakteristiky/Příklady.md",
+    "Teorie Odhadu",
+    "6)Výběrové charakteristiky/Pasted image 20260528203947.png",
+    "6)Výběrové charakteristiky/Pasted image 20260528203838.png",
+    "6)Výběrové charakteristiky/Pasted image 20260528203644.png",
+    "6)Výběrové charakteristiky/teorie.md",
+    "6)Výběrové charakteristiky/Pasted image 20260528181825.png",
+    "6)Výběrové charakteristiky/Pasted image 20260528175535.png",
+    "6)Výběrové charakteristiky/Pasted image 20260528172324.png",
+    "6)Výběrové charakteristiky/Pasted image 20260528203433.png",
+    "6)Výběrové charakteristiky/Pasted image 20260528203237.png",
+    "6)Výběrové charakteristiky/Pasted image 20260528203038.png",
+    "6)Výběrové charakteristiky/Pasted image 20260528202226.png",
+    "4)Diskrétní rozdělení/přiklady.md",
+    "3)Náhodná veličina a náhodný vektor/Příklady.md",
     "2)Úvod do teorie Pravděpodobnosti/Příklady.md",
     "2)Úvod do teorie Pravděpodobnosti/Př25.md",
-    "2)Úvod do teorie Pravděpodobnosti/Př19.md",
-    "2)Úvod do teorie Pravděpodobnosti/Uvod do teorie Pravděpodobnosti.md",
-    "1)Kombinatorika/Kombinatorika.md",
-    "2)Úvod do teorie Pravděpodobnosti/Images",
-    "1)Kombinatorika/Images/Pasted image 20260527201344.png",
-    "1)Kombinatorika/Images/Pasted image 20260527201340.png",
-    "1)Kombinatorika/Images",
-    "Bez názvu",
-    "3)Náhodná veličina a náhodný vektor/Teorie.md",
-    "3)Náhodná veličina a náhodný vektor/Příklady.md",
-    "2)Úvod do teorie Pravděpodobnosti/Bez názvu.canvas",
-    "2)Úvod do teorie Pravděpodobnosti/Images/Pasted image 20260528082345.png",
-    "2)Úvod do teorie Pravděpodobnosti/Images/Pasted image 20260528082338.png",
-    "2)Úvod do teorie Pravděpodobnosti/Images/Pasted image 20260527214114.png",
-    "1)Kombinatorika/Images/Pasted image 20260527202646.png",
-    "1)Kombinatorika/Images/Pasted image 20260527202400.png",
-    "1)Kombinatorika/Images/Pasted image 20260527201912.png",
-    "1)Kombinatorika/Images/Pasted image 20260527201747.png",
-    "4)Diskrétní rozdělení/Pasted image 20260528114133.png",
-    "6)Výběrové charakteristiky/Příklady.md",
-    "4)Diskrétní rozdělení/přiklady.md",
-    "6)Výběrové charakteristiky/teorie.md",
     "5)Spojitá rozdělení pravděbodobnosti/Příklady.md",
     "6)Výběrové charakteristiky",
     "5)Spojitá rozdělení pravděbodobnosti/teorie.md",
