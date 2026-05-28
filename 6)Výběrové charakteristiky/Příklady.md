@@ -141,3 +141,110 @@ Z = (104.5-Ex)/sigma;
 ```
 Rozdíl výběrových průměrů
 ![[Pasted image 20260528201057.png]]
+```
+%pr14 tohle je jinej typ příkladu kde jsou 2 hodnoty strřední hodnoty odečítame rozptyl sčítame ale pozer je to rozptyl takže na 2 
+
+Ex_plat = 27000;
+
+Dx_plat = 8000;
+
+Ex_naklad = 7000;
+
+Dx_naklad = 2000;
+
+Ex_both = Ex_plat-Ex_naklad;
+
+Dx_both = Dx_plat^2+Dx_naklad^2;
+
+sigma = sqrt(Dx_both)
+
+Z = (25000-Ex_both)/sigma;
+
+1-normcdf(Z)
+```
+![[Pasted image 20260528201821.png]]
+```
+%pr 17
+
+%zde je to taky jinný počítame podíl/procenta takže E = p, rozptyl =
+
+%(sqrt(p*(1-p)/n)
+
+p = 0.55;
+
+n = 1000;
+
+E = p;
+
+rozptyl = sqrt(p*(1-p)/n);
+
+Z = (168/1000-E)/rozptyl;
+
+normcdf(Z)
+```
+![[Pasted image 20260528202226.png]]
+```
+%pr 20
+
+n1 = 250;
+
+a1 = 62;
+
+n2 = 340;
+
+a2 = 141;
+
+p1 = a1/n1;
+
+p2 = a2/n2;
+
+E = p2-p1;
+
+sigma = sqrt(p1*(1-p1)/n1+p2*(1-p2)/n2);
+
+%chceme kladný takže větší jak 0);
+
+Z = (0-E)/sigma;
+
+1-normcdf(Z)
+
+fprintf('%.7f\n', 1-normcdf(Z))
+```
+![[Pasted image 20260528203038.png]]
+```
+%pr 21
+
+Z = (0.1 -E)/sigma;
+
+1-normcdf(Z) %jen změníme z 0 na 0.1
+```
+Chíííí kvadrat
+![[Pasted image 20260528203237.png]]
+```
+%pr 22
+
+chi2inv(0.05,10)
+
+chi2inv(0.95,10)
+```
+![[Pasted image 20260528203433.png]]
+```
+%pr24
+
+1-chi2cdf(20,12)
+```
+
+![[Pasted image 20260528203644.png]]
+
+```
+1-tcdf(1, 2)
+
+1-tcdf(1, 4)
+
+1-tcdf(1, 10)
+
+1-tcdf(1, 100)
+
+1-normcdf(1)
+```
+![[Pasted image 20260528203838.png]]
