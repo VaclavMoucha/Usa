@@ -233,7 +233,7 @@ chi2inv(0.95,10)
 
 1-chi2cdf(20,12)
 ```
-
+Studentovo
 ![[Pasted image 20260528203644.png]]
 
 ```
@@ -248,3 +248,23 @@ chi2inv(0.95,10)
 1-normcdf(1)
 ```
 ![[Pasted image 20260528203838.png]]
+```
+%pr 26
+
+tinv(0.05,10)
+
+tinv(0.95,10)
+```
+Fisherovo 
+![[Pasted image 20260528203947.png]]
+```
+%pr27
+
+finv(0.05, 10, 5)
+
+finv(0.95, 10, 5)
+
+finv(0.05, 5, 10)
+
+finv(0.95, 5, 10)
+```
