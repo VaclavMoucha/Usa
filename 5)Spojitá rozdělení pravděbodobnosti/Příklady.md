@@ -18,6 +18,19 @@ lambda=1/EX;
 F=1-exp(-lambda*2)
 ```
 ![[Pasted image 20260528124216.png]]
+```
+%pr17a
+
+vstup = readtable("P0517a.xlsx");
+
+x = vstup.Var1(:,1);
+
+a = expfit(x)
+
+expcdf(10000,a/1)
+
+poisspdf(2,8640/a)
+```
 Weibullovo rozdělení
 ![[Pasted image 20260528125457.png]]
 ```
