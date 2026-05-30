@@ -1,8 +1,8 @@
-|Typ dat|Předpoklad|Metoda|MATLAB funkce|
-|---|---|---|---|
-|Kategoriální (Ano/Ne, vzdělání...)|žádný|**χ² test** (kontingenční tabulka)|`crosstab(x,y)`|
-|Spojitá (výška, hmotnost...)|normální rozdělení|**Pearsonův** koeficient|`corrcoef(x,y)`|
-|Spojitá (výška, hmotnost...)|nenormální rozdělení|**Spearmanův** koeficient|`corr(x,y,'type','Spearman')`|
+| Typ dat                            | Předpoklad           | Metoda                             | MATLAB funkce                 |
+| ---------------------------------- | -------------------- | ---------------------------------- | ----------------------------- |
+| Kategoriální (Ano/Ne, vzdělání...) | žádný                | **χ² test** (kontingenční tabulka) | `crosstab(x,y)`               |
+| Spojitá (výška, hmotnost...)       | normální rozdělení   | **Pearsonův** koeficient           | `corrcoef(x,y)`               |
+| Spojitá (výška, hmotnost...)       | nenormální rozdělení | **Spearmanův** koeficient          | `corr(x,y,'type','Spearman')` |
 ![[Pasted image 20260530105847.png]]
 ```
 %pr 1 H0:hodnoty v kontigenční tabulce jsou statisticky nezávisle HA: -||- závislé
