@@ -4,7 +4,7 @@
 Rovnoměrné rozdělení 
 ![[Pasted image 20260528122235.png]]
 ```
-x=unifrnd(0,1);
+x=unifrnd(0,1,1,100);
 
 y=5*x+10
 ```

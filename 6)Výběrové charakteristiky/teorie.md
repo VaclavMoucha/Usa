@@ -143,3 +143,7 @@ finv(p, m, n)
 |Testování střední hodnoty, σ neznámé|Studentovo t|
 |Testování rozptylu|χ²|
 |Porovnání dvou rozptylů|Fisher-Snedecor F|
+
+---
+## Kdy použít jakou větu
+![[vyber_clm.png]]
