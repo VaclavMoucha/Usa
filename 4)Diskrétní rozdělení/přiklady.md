@@ -1,4 +1,19 @@
+**![[Pasted image 20260530190714.png]]
+**
 ![[Pasted image 20260528120142.png]]
+**Binomické rozdělení:**
+
+- Výběr **s vracením** (nebo nekonečná populace)
+- Pravděpodobnost úspěchu p je **stále stejná** při každém tahu
+- Např. hážeš mincí 10× — vždy 50% šance na hlavu
+
+---
+
+**Hypergeometrické rozdělení:**
+
+- Výběr **bez vracení** z konečné populace
+- Pravděpodobnost se **mění** s každým tahem
+- Např. z balíčku karet taháš bez vracení — po každém tahu se mění počet karet
 binomické
 ![[Pasted image 20260528101450.png]]
 - zde vracime použijeme bino a pravděpodobnostní jelikož přesně 2x realná hodnota
