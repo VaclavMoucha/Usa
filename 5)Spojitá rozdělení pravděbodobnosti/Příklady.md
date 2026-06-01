@@ -1,7 +1,15 @@
 ![[Pasted image 20260528150326.png]]
 ![[Pasted image 20260528140828.png]]
 ![[Pasted image 20260528121721.png]]
-Rovnoměrné rozdělení 
+
+| **Rozdělení**         | **Funkce v MATLABu** | **Základní volání (Syntaxe)** | **Co přesně funkce vrací (Výstup)** | **Význam parametrů**                                                                       |
+| --------------------- | -------------------- | ----------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------ |
+| **Rovnoměrné**        | `uniffit`            | `[vystup] = uniffit(data)`    | Dvouprvkový řádek: `[a, b]`         | `a` = dolní mez<br><br>  <br><br>`b` = horní mez                                           |
+| **Exponenciální**     | `expfit`             | `[muhat] = expfit(data)`      | Jeden skalár (číslo): `muhat`       | `muhat` = střední hodnota ($\mu = 1/\lambda$)                                              |
+| **Weibullovo**        | `wblfit`             | `[parhat] = wblfit(data)`     | Dvouprvkový řádek: `[a, b]`         | `a` = měřítko (scale)<br><br>  <br><br>`b` = tvar (shape)                                  |
+| **Normální**          | `normfit`            | `[mu, sigma] = normfit(data)` | Dvě samostatná čísla: `mu`, `sigma` | `mu` = střední hodnota ($\mu$)<br><br>  <br><br>`sigma` = směrodatná odchylka ($\sigma$)   |
+| **Log-normální**      | `lognfit`            | `[mu, sigma] = lognfit(data)` | Dvě samostatná čísla: `mu`, `sigma` | `mu` = střední hodnota _logaritmu dat_<br><br>  <br><br>`sigma` = odchylka _logaritmu dat_ |
+| **Erlangovo (Gamma)** | `gamfit`             | `[parhat] = gamfit(data)`     | Dvouprvkový řádek: `[a, b]`         | `a` = tvar (počet fází, zaokrouhlit)<br><br>  <br><br>`b` = měřítko                        |
 ![[Pasted image 20260528122235.png]]
 ```
 x=unifrnd(0,1);
