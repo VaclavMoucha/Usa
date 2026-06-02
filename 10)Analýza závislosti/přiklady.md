@@ -8,7 +8,7 @@
 %pr 1 H0:hodnoty v kontigenční tabulce jsou statisticky nezávisle HA: -||- závislé
 
 %zenich
-
+%je to spatne, v matlabu vasek test je dobre,
 x1(1:39)=1;
 
 x2(1:34)=2;
