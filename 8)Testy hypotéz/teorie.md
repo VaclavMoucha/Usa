@@ -14,9 +14,9 @@ Při testování hypotéz ověřujeme na základě dat z výběru, zda platí ur
 - **Oboustranný (`'both'`):** $H_0: \theta = \theta_0$ vs. $H_A: \theta \neq \theta_0$
     
 - **Levostranný (`'left'`):** $H_0: \theta \ge \theta_0$ vs. $H_A: \theta < \theta_0$
-    
+    Když chci vědět jestli H1 je vetší než H0
 - **Pravostranný (`'right'`):** $H_0: \theta \le \theta_0$ vs. $H_A: \theta > \theta_0$
-    
+	Když chci vědět jestli H0 je vetší než H1
 
 ### Rozhodování pomocí $p\text{-value}$
 
@@ -148,13 +148,13 @@ Používá se, pokud jsou data ovlivněna **dvěma nebo více faktory současně
 
 ## 🎯 Geniální tahák: Jaký test vybrat? (Finální rozhodovací tabulka)
 
-|**Počet výběrů**|**Co testuji**|**Data jsou NORMÁLNÍ**|**Data NEJSOU normální (Neparametrické)**|
-|---|---|---|---|
-|**1 výběr**|Rozptyl ($\sigma^2$)|`vartest`|—|
-||Střední hodnotu / Medián|`ttest`|`signtest` nebo `signrank`|
-||Párová data (před/po)|`ttest(po, pred)`|`signtest(po, pred)` nebo `signrank(po, pred)`|
-|**2 výběry**|Shodu rozptylů ($\sigma_1^2 = \sigma_2^2$)|`vartest2`|—|
-||Shodu stř. hodnot / Mediánů|`ttest2` (volba _equal/unequal_)|`ranksum` (Mann-Whitney)|
-|**3+ výběry**|Shodu rozptylů|`vartestn` (Bartlett)|`vartestn` (Levene)|
-||Shodu stř. hodnot / Mediánů|`anova1`|`kruskalwallis`|
-|**Více faktorů**|Kombinovaný vliv (např. teplota + vlhkost)|`anova2` nebo `anovan`|`friedman` (jen vyvážená)|
+| **Počet výběrů** | **Co testuji**                             | **Data jsou NORMÁLNÍ**           | **Data NEJSOU normální (Neparametrické)**      |
+| ---------------- | ------------------------------------------ | -------------------------------- | ---------------------------------------------- |
+| **1 výběr**      | Rozptyl ($\sigma^2$)                       | `vartest`                        | —                                              |
+|                  | Střední hodnotu / Medián                   | `ttest`                          | `signtest` nebo `signrank`                     |
+|                  | Párová data (před/po)                      | `ttest(po, pred)`                | `signtest(po, pred)` nebo `signrank(po, pred)` |
+| **2 výběry**     | Shodu rozptylů ($\sigma_1^2 = \sigma_2^2$) | `vartest2`                       | —                                              |
+|                  | Shodu stř. hodnot / Mediánů                | `ttest2` (volba _equal/unequal_) | `ranksum` (Mann-Whitney)                       |
+| **3+ výběry**    | Shodu rozptylů                             | `vartestn` (Bartlett)            | `vartestn` (Levene)                            |
+|                  | Shodu stř. hodnot / Mediánů                | `anova1`                         | `kruskalwallis`                                |
+| **Více faktorů** | Kombinovaný vliv (např. teplota + vlhkost) | `anova2` nebo `anovan`           | `friedman` (jen vyvážená)                      |
