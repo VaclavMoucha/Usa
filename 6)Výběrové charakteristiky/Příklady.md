@@ -104,37 +104,30 @@ sigma = sqrt(Dx_)
 Z = (4-Ex)/sigma
 
 normcdf(Z)
+
 ```
 ![[Pasted image 20260528194722.png]]
+![[Pasted image 20260601194644.png]]
+tohle je myšleno k tomu rozptylu
 ```
-%Pr 11
+%každý pokus má střední hodnotu 3 chyby a rozptyl 4 chyby na druhou
 
-%hazime kostkou teda
+str_hodnota=(1+2+3+4+5+6)/6;
 
-%stredni hodnota
-Ex = (1+6)/2
 
-%rozptyl
-Dx = (6-1)^2/12
+rozptyl=2*((1-str_hodnota)^2+(2-str_hodnota)^2+(3-str_hodnota)^2)/6;
 
-n = 100
+% centrální limitní věta
 
-%stted pro vsechny hody
-Ex_sum = Ex*n
+pocet_hodu=100;
 
-%rozptyl pro vsechny hody
-Dx_sum = Dx*100
+mu=str_hodnota*pocet_hodu;
 
-%smer. odchylka
-sigma = sqrt(Dx_sum)
+sigma2=rozptyl*pocet_hodu;
 
-%jelikož jsou 2 hranice udělame Z1 a Z2
+sigma=sqrt(sigma2);
 
-Z1 = (319.5 - Ex_sum) / sigma
-
-Z2 = (380.5 - Ex_sum) / sigma
-
-normcdf(Z2)-normcdf(Z1)
+P=normcdf(380.5,mu,sigma)-normcdf(319.5,mu,sigma)
 ```
 ![[Pasted image 20260528200054.png]]
 ![[Pasted image 20260528200411.png]]

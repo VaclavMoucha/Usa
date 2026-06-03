@@ -141,3 +141,15 @@ data = [a,b,c,d]
 
 boxplot(data)
 ```
+![[Pasted image 20260601181009.png]]
+```
+% Střední hodnota
+
+E_T = eta * gamma(1 + 1/beta)
+
+t_zaruka = 2;
+
+% Pravděpodobnost poruchy do 2 let
+
+F_2 = wblcdf(t_zaruka, eta, beta)
+```
