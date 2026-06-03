@@ -19,8 +19,10 @@ binomické
 - zde vracime použijeme bino a pravděpodobnostní jelikož přesně 2x realná hodnota
 - druhá otazka se jakoby neurčitá hodnota alespon 4 takže použijeme binocdf pro distribuční funkci 
 ```
+%prave 2krat
 binopdf(2,5,1/2)
 
+%tady to vypocita z to padne vice nez 3.5krat proto musime odebrat od jedne %jelikoz 1 je ze padne 0-5krat, ale my chcceme jen 4x a 5x
 1-binocdf(3.5,5,1/2)
 ```
 ![[Pasted image 20260528104011.png]]
@@ -63,12 +65,16 @@ hypergeometricke
 ![[Pasted image 20260528104900.png]]
 ![[Pasted image 20260528105158.png]]
 ```
+%Kolik chceme trefit, celkovy pocet moznosti, kolik es tam je, kolik karet vybirame
 hygepdf(2,32,4,3)
 
+%kolik potrebujeme dobre, kolik se losuje, pravdepodobnost
 binopdf(2,3,1/8)
 ```
 ![[Pasted image 20260528105426.png]]
 ```
+% kolik chceme trefit, celkovy pocet, kolik losujeme my, kolik je spravnych
+% posledni 2 se mohou prohodit, nic to nemeni 
 hygepdf(5,200,10,30)
 
 binopdf(5,10,30/200)
@@ -96,6 +102,7 @@ vysledek
 
 ![[Pasted image 20260528105925.png|523]]
 ```
+%kolik potrebujeme, celkovy pocet, vsechny spravny, kolik losujeme
 hygepdf(22,17000,10000,30)
 
 hygepdf(8,17000,7000,30)
@@ -104,7 +111,7 @@ geomertricke
 ![[Pasted image 20260528110634.png]]
 geopdf(4,1/6)
 ```
-
+%pocet neuspechu predtim, sance
 geopdf(4,1/6)
 ```
 ![[Pasted image 20260528110331.png]]
@@ -112,7 +119,7 @@ geopdf(4,1/6)
 for i=0:1000
 
 %vyhraje první hráč, celkem lichý počet pokusů
-
+%urcuje hod prvniho a pravdepodobnost predeslych hodu
 P1=P1+geopdf(2*i,1/6);
 
 %vyhraje druhý hráč, celkem sudý počet pokusů
@@ -129,8 +136,10 @@ P2
 ```
 geopdf(4,0.1)
 
+%bere v potaz 4. navsetevu
 geocdf(3.5,0.1)
 
+%jelikoz se ptame pri 8 a vice, tak musime vypocitat kolikrat to bude do 7. %navstevy a odecist od celku jelikoz nejde dat jen 8 a vice 
 1-geocdf(6.5,0.1)
 
 ```
@@ -139,17 +148,22 @@ negativně binomické
 ```
 %a) desátý dárce bude právě 3. úspěšný
 
+%pocet neuspechu, pocet uspechu, pravdepodobnost
 vysl_a=nbinpdf(7,3,0.35)
 
 %b)bude potřeba do 9 dárců včetně
-
+%pocet neuspechu, pocet uspechu, pravdepodobost
 vysl_b=nbincdf(6.5,3,0.35);
 
+%jelikoz je tam vice jak 9, tak musime to predesle odecist od 1
 vysl_b=1-vysl_b
 
 %c)
 
 vysl_c=nbincdf(7.5,3,0.35)-nbincdf(2.5,3,0.35)
+
+d)
+vysl_d = binopdf(3,10,0.35)
 ```
 Multinoimické
 ![[Pasted image 20260528111716.png]]

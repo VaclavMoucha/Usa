@@ -217,13 +217,13 @@ Používá se:
   
 # Jak poznat správné rozdělení  
   
-| Situace | Rozdělení |  
-|---|---|  
-| Jeden pokus ano/ne | Bernoulli |  
-| Počet úspěchů z n pokusů | Binomické |  
-| Počet pokusů do prvního úspěchu | Geometrické |  
-| Počet výskytů za čas | Poissonovo |  
-| Výběr bez vracení | Hypergeometrické |  
+| Situace                         | Rozdělení        |     |
+| ------------------------------- | ---------------- | --- |
+| Jeden pokus ano/ne              | Bernoulli        |     |
+| Počet úspěchů z n pokusů        | Binomické        |     |
+| Počet pokusů do prvního úspěchu | Geometrické      |     |
+| Počet výskytů za čas            | Poissonovo       |     |
+| Výběr bez vracení               | Hypergeometrické |     |
   
 ---  
   

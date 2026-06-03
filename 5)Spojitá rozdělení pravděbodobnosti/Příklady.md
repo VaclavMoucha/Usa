@@ -12,7 +12,7 @@
 | **Erlangovo (Gamma)** | `gamfit`             | `[parhat] = gamfit(data)`     | Dvouprvkový řádek: `[a, b]`         | `a` = tvar (počet fází, zaokrouhlit)<br><br>  <br><br>`b` = měřítko                        |
 ![[Pasted image 20260528122235.png]]
 ```
-x=unifrnd(0,1);
+x=unifrnd(0,1,1,100);
 
 y=5*x+10
 ```

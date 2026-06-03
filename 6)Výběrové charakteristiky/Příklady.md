@@ -9,14 +9,18 @@ Centrální limitní věta
 
 n = 1000;
 
+%stredni hodnota
 mu = 0.5;
 
+%rozptyl  ((b-a)^2/12)
 Dx= (1-0)^2/12;
 
 mu_prumer = mu;
 
+%smerodatna odchylka
 Dx_prumer = sqrt(Dx/n)
 
+%vypocitame o kolik smerodatnych odchylek je dal nez stred
 Z = (0.520-mu_prumer)/Dx_prumer;
 
 %jelikož je větší tak
@@ -29,13 +33,17 @@ Z = (0.520-mu_prumer)/Dx_prumer;
 ```
 %pr10
 
+%stredni hodnota celku
 Ex = 3*400;
 
+%rozptyl celku
 Dx = 4*400;
 
+%smerodatna odchylka
 Dx_ = sqrt(Dx);
 
-Z = (1000-1200)/40;
+%o kolik je dal hranice od ocekavaneho prumeru
+Z = (1000-Ex)/Dx_;
 
 normcdf(Z)
 ```
@@ -44,17 +52,24 @@ normcdf(Z)
 ```
 %pr 9
 
+%stredni hodnota jednoho
 Ex = 90;
 
+%rozptyl jednoho
 Dx= 10^2;
 
+%stredni hodnota celku
 Ex_ = Ex*64
 
+%rozptyl celku
 Dx_Sum = Dx * 64;
 
+%celkova smerodatna odchylka
 sigma = sqrt(Dx_Sum);
 
+%o kolik smer. odchylech lezi dal nez stredu
 Z = (6000-Ex_)/sigma;
+
 
 1-normcdf(Z)
 ```
@@ -62,6 +77,7 @@ Z = (6000-Ex_)/sigma;
 ```
 %pr 8
 
+%stredni hodnota
 Ex = 5;
 
 %jelikož pro exponencialní rozdělení to je takto Ex = 1/lambda tak
@@ -72,14 +88,17 @@ lambda = 1/5;
 
 n=100;
 
+%teoreticky rozptyl
 Dx = 1/lambda^2
 
 %počítáme průmer takže
 
 Ex = 5;
 
+%teoreticky rozptyl vybraneho prumeru
 Dx_ = Dx/n;
 
+%smerodatna odchylka
 sigma = sqrt(Dx_)
 
 Z = (4-Ex)/sigma
@@ -127,10 +146,14 @@ lambda = 600*1/6;
 
 n=600;
 
+%stred. hodnota
 Ex = n*1/6;
 
+%teoreticky rozptyl (n * p * q) n = n, p = pravdepodobnost ze padne 6, q =
+%pravdepodobnost ze 6 nepadne (1 - p) 
 Dx = n*1/6*(1-1/6)
 
+%smer. odchylka
 sigma = sqrt(Dx);
 
 Z = (104.5-Ex)/sigma;
@@ -142,18 +165,25 @@ Rozdíl výběrových průměrů
 ```
 %pr14 tohle je jinej typ příkladu kde jsou 2 hodnoty strřední hodnoty odečítame rozptyl sčítame ale pozer je to rozptyl takže na 2 
 
+%stredni hodnota
 Ex_plat = 27000;
 
+%smer. odchylka
 Dx_plat = 8000;
 
+%sted. hodnota
 Ex_naklad = 7000;
 
+%odchylka
 Dx_naklad = 2000;
 
+%prumer stred. hodnot
 Ex_both = Ex_plat-Ex_naklad;
 
+%prumerny rozptyl 
 Dx_both = Dx_plat^2+Dx_naklad^2;
 
+%smer. odchylka
 sigma = sqrt(Dx_both)
 
 Z = (25000-Ex_both)/sigma;
@@ -168,12 +198,16 @@ Z = (25000-Ex_both)/sigma;
 
 %(sqrt(p*(1-p)/n)
 
+%pravdepodobnost uspechu
 p = 0.55;
 
+%pocet odpovedi
 n = 1000;
 
+%stredni hodnota
 E = p;
 
+%smerodatna odchylka ne rozptyl
 rozptyl = sqrt(p*(1-p)/n);
 
 Z = (168/1000-E)/rozptyl;
@@ -192,12 +226,16 @@ n2 = 340;
 
 a2 = 141;
 
+%podil pro 2015
 p1 = a1/n1;
 
+%podil pro 2016
 p2 = a2/n2;
 
+%stredni hodnota
 E = p2-p1;
 
+%kombinovana smer. odchylka
 sigma = sqrt(p1*(1-p1)/n1+p2*(1-p2)/n2);
 
 %chceme kladný takže větší jak 0);
@@ -235,6 +273,8 @@ Studentovo
 ![[Pasted image 20260528203644.png]]
 
 ```
+%tcdf kdyz potrebuju zjistit pravdepodobnost
+%Když zadání začíná slovy: _„Určete pravděpodobnost, že...“
 1-tcdf(1, 2)
 
 1-tcdf(1, 4)
@@ -247,7 +287,9 @@ Studentovo
 ```
 ![[Pasted image 20260528203838.png]]
 ```
-%pr 26
+%pr 26 
+%tinv pouziju kdyz znam pravdepodobst (kvantil)
+%(Když zadání začíná slovy: _„Určete kvantil...“_ nebo _„Najděte %kritickou %hodnotu...“_)
 
 tinv(0.05,10)
 
